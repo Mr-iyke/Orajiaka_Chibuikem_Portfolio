@@ -11527,7 +11527,7 @@ pre .code {
 
 @media (max-width: 960px) {
   .header {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/avatar1.webp);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/mini-header.webp);
   }
 }
 
