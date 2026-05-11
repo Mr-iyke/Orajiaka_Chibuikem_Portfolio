@@ -11707,3 +11707,11 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+a:hover {
+color: white !important;
+}
+
+.branding {
+  justify-items: center;
+}
