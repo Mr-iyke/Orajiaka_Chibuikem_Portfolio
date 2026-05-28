@@ -1,575 +1,350 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Orajiaka Chibuikem - Web Developer, Data Analyst and Graphics Designer">
-    <meta name="keywords" content="Web Developer, Data Analyst, Graphics Designer, Web Development, Data Analysis, Graphics Designing">
-    <meta name="author" content="Orajiaka Chibuikem">
-    <meta property="og:image" content="./assets/imgs/mini-header.webp">
-    <title>Orajiaka Chibuikem - Web Developer, Data Analyst and Graphics Designer</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + JohnDoe main styles -->
-	<link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orajiaka Chibuikem — Developer · Analyst · Designer</title>
+
+  <!-- Primary Meta -->
+  <meta name="description" content="Orajiaka Chibuikem — Web Developer, Data Analyst, and Graphic Designer based in Anambra State, Nigeria. Building responsive websites, delivering data insights, and creating stunning brand identities.">
+  <meta name="keywords" content="Orajiaka Chibuikem, Web Developer Nigeria, Data Analyst, Graphic Designer, Django Developer, Python Developer, Branding Nigeria, IT Tutor, Techcore Innovations, Anambra">
+  <meta name="author" content="Orajiaka Chibuikem">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#14f0a0">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://orajiaka-chibuikem.netlify.app/">
+  <meta property="og:title" content="Orajiaka Chibuikem — Developer · Analyst · Designer">
+  <meta property="og:description" content="Web Developer, Data Analyst, and Graphic Designer based in Nigeria. Building responsive websites, data insights, and stunning brand identities.">
+  <meta property="og:image" content="img/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Orajiaka_iyke">
+  <meta name="twitter:creator" content="@Orajiaka_iyke">
+  <meta name="twitter:title" content="Orajiaka Chibuikem — Developer · Analyst · Designer">
+  <meta name="twitter:description" content="Web Developer, Data Analyst, and Graphic Designer based in Nigeria. Building responsive websites, data insights, and stunning brand identities.">
+  <meta name="twitter:image" content="img/og-image.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,700&family=Cabinet+Grotesk:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <!-- <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a> -->
-    <header class="header">
-        <div class="container">
-            <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" target="_blank" href="https://web.facebook.com/orajiakachibuikem/"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" target="_blank" href="https://x.com/Orajiaka_iyke"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <!-- <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li> -->
-                <li class="social-item"><a class="social-link text-light" target="_blank" href="https://www.instagram.com/chibuikemorajiaka/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" target="_blank" href="https://github.com/Mr-iyke"><i class="ti-github" aria-hidden="true"></i></a></li>
-            </ul>  
-            <div class="header-content">
-                <h4 class="header-subtitle" >Hello, I am</h4>
-                <h1 class="header-title">Orajiaka <br> Chibuikem</h1>
-                <h6 class="header-mono" >Web Developer | Data Analyst | Graphic Designer</h6>
-                <a href="./assets/file/Orajiaka Chibuikem Resume.pdf" download class="btn btn-primary btn-rounded">
-                    <i class="ti-printer pr-2"></i> Print Resume
-                </a>
-            </div>
-        </div>
-    </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
-        <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link">Resume</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav brand">
-                    <img src="assets/imgs/avatar3.webp" alt="" class="brand-img">
-                    <li class="brand-txt">
-                        <h5 class="brand-title">Orajiaka Chibuikem</h5>
-                        <div class="brand-subtitle">Web Developer | Data Analyst | Graphics Designer</div>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#statistics" class="nav-link">Statictics</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Portfolio</a>
-                    </li>
-                    <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<body>
 
-    <!-- about section -->
-    <div class="container-fluid">
-        <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Who am I ?</h3>
-                <span class="line mb-5"></span>
-                <h5 class="mb-3">A Web Developer / Data Analyst / Graphics Designer and Coach Located At Onitsha, Anambra State, Nigeria.</h5>
-                <p class="mt-20">Passionate about building innovative web solutions, analyzing data, and creating stunning designs.</p>
-                <a href="./assets/file/Orajiaka Chibuikem Resume.pdf" download class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</a>
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Personal Info</h3>
-                <span class="line mb-5"></span>
-                <ul class="mt40 info list-unstyled">
-                    <li><span>Birthdate</span> : 30/10/1999</li>
-                    <li><span>Email</span> : orajiakachibuikem01@gmail.com</li>
-                    <li><span>Phone</span> : +234 806 7857 643</li>
-                    <li><span>Address</span> : Nkpor-uno, Anambra State, Nigeria.</li>
-                </ul>
-                <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" target="_blank" href="https://web.facebook.com/orajiakachibuikem/"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" target="_blank" href="https://x.com/Orajiaka_iyke"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                    <!-- <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li> -->
-                    <li class="social-item"><a class="social-link" target="_blank" href="https://www.instagram.com/orajiaka_iyke/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" target="_blank" href="https://github.com/Mr-iyke"><i class="ti-github" aria-hidden="true"></i></a></li>
-                </ul>  
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">My Expertise</h3>
-                <span class="line mb-5"></span>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-settings icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Back-end Web Development</h6>
-                        <p class="subtitle" style="text-transform: capitalize;">Expert In Creating Seamless Interactions Between Databases, Servers, And Client Applications.</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Graphics Designing</h6>
-                        <p class="subtitle">Logo Design, Branding, Web Design, Print Media, and Digital Illustrations</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-blackboard icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>IT Coaching/Tutoring</h6>
-                        <p class="subtitle">Web Development, Programming, Designing and IT Fundamentals for Beginners and advanced learners</p>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- PRELOADER -->
+<div id="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-logo">OC<span>.</span></div>
+    <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    <div class="preloader-text">Loading...</div>
+  </div>
+</div>
+
+<!-- LIGHTBOX -->
+<div id="lightbox">
+  <button id="lightbox-close" aria-label="Close">✕</button>
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+
+<!-- CURSOR -->
+<div id="cursor"></div>
+<div id="cursor-dot"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo"><em>OC</em>.</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li class="nav-cv-mobile"><a href="file/Orajiaka Chibuikem Resume.pdf" download>Download CV ↓</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="4.5"/><line x1="12" y1="1.5" x2="12" y2="3.5"/><line x1="12" y1="20.5" x2="12" y2="22.5"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1.5" y1="12" x2="3.5" y2="12"/><line x1="20.5" y1="12" x2="22.5" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+      </svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+      </svg>
+    </button>
+    <a href="file/Orajiaka Chibuikem Resume.pdf" class="nav-cta" download>Download CV</a>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="bg-dots"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="hero-left">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Available for work
     </div>
-    <!-- about section -->
-
-    <!--Resume Section-->
-    <section class="section" id="resume">
-        <div class="container">
-            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
-            <div class="row center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Expertise</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h6 class="title text-danger">2021 - 2023</h6>
-                            <P>Graphics Designing</P>
-                            <P class="subtitle">Creating visually compelling designs for branding, marketing, and digital platforms.</P>
-                            <hr>
-                            <h6 class="title text-danger">2022 - 2024</h6>
-                            <P>Back-end Web Developer</P>
-                            <P class="subtitle">Developing and optimizing server-side applications for high performance and security.</P>
-                            <hr>
-                            <h6 class="title text-danger">2023 - Present</h6>
-                            <P>IT Coaching/Tutoring</P>
-                            <P class="subtitle">Empowering learners with hands-on training in web development, coding, and IT fundamentals.</P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Education</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h6 class="title text-danger">2022 - 2023</h6>
-                            <P>Front-end Web Development (CC7 Computers Awka)</P>
-                            <P class="subtitle">Gained hands-on experience in building responsive and interactive web interfaces using HTML, CSS, JavaScript, modern frameworks.</P>
-                            <hr>
-                            <h6 class="title text-danger">2023 - 2024</h6>
-                            <P>Back-end Web Development (ICT Slides Onitsha)</P>
-                            <P class="subtitle">Developed expertise in server-side programming, database management, and API development using modern back-end technologies</P>
-                            <hr>
-                            <h6 class="title text-danger">2025 - Present</h6>
-                            <P>Data Analysis (ICT Slides Onitsha)</P>
-                            <P class="subtitle">Learning data processing, visualization, and statistical analysis to derive insights and support decision-making.</P>    
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Skills</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body pb-2">
-                           <h6>HTML5, CSS3 &amp; JavaScript</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Python</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>SQL</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Django</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Languages</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body pb-2">
-                           <h6>English</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Igbo</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section bg-dark text-center" id="statistics">
-        <div class="container">
-            <div class="row text-center justify">
-                <div class="col-md-6 col-lg-3">
-                    <div class="row ">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-briefcase icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">5yrs</h1>
-                            <p class="text-light mb-1">Work Experience</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">10</h1>
-                            <p class="text-light mb-1">Project Finished</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">10</h1>
-                            <p class="text-light mb-1">Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="service">
-        <div class="container">
-            <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                        <i class="ti-world text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Website Development</h5>
-                            <P class="subtitle">I specialize in creating custom, high-performance websites tailored to your business needs. From responsive landing pages to complex web applications, I ensure seamless user experience and optimized performance. Using the latest frontend and backend technologies, I build fast, scalable, and secure websites that enhance your online presence.</P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                        <i class="ti-reload text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Website Maintainance</h5>
-                            <P class="subtitle">Keep your website running smoothly, securely, and up-to-date with my professional website maintenance services. I ensure your site stays fast, secure, and optimized, minimizing downtime and improving user experience. Whether you need regular updates, security checks, or performance improvements, I&apos;ve got you covered!</P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                        <div class="card-header has-icon">
-                            <i class="ti-paint-bucket text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Graphics Designing</h5>
-                            <P class="subtitle">Bring your brand to life with stunning and creative graphics that captivate your audience. I specialize in crafting high-quality visual designs that enhance brand identity, marketing, and online presence. Whether you need logos, social media graphics, business branding, or print materials, I deliver designs that make a lasting impression.</P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                        <div class="card-header has-icon">
-                            <i class="ti-flag text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Branding</h5>
-                            <P class="subtitle">Elevate your brand with a strong, memorable identity that sets you apart from the competition. I specialize in crafting cohesive and impactful brand strategies that resonate with your audience and communicate your vision effectively. From logo creation to full brand identity packages, I ensure your brand stands out across all platforms.</P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                        <div class="card-header has-icon">
-                            <i class="ti-video-camera text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Virtual Training</h5>
-                            <P class="subtitle">Learn from anywhere with expert-led virtual training designed to help you master in-demand skills. Whether you&apos;re a beginner or a professional, my sessions are interactive and tailored to your learning pace. With a focus on real-world applications, you&apos;ll gain the confidence to apply your skills professionally and personally.</P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                        <div class="card-header has-icon">
-                            <i class="ti-pencil-alt text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Website Content Writing</h5>
-                            <P class="subtitle">Engage your audience with SEO-friendly content that boosts your online presence. I create compelling and well-structured content tailored to your brand&apos;s voice and business goals. Whether you need website pages, blog articles, or landing page copy, I ensure your content is informative, engaging, and optimized for search engines.</P>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Portfolio Section -->
-    <section class="section bg-custom-gray" id="portfolio">
-        <div class="container">
-            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
-            <div class="portfolio">
-                <div class="filters">
-                    <a href="#" data-filter=".new" class="active">
-                        New
-                    </a>
-                    <a href="#" data-filter=".web">
-                        Website
-                    </a>
-                    <a href="#" data-filter=".branding">
-                        Branding
-                    </a>
-                </div>
-                <div class="portfolio-container"> 
-                    <div class="col-md-6 col-lg-4 web new">
-                        <div class="portfolio-item">
-                            <a href="https://ocotechconstruction.com/" target="_blank">
-                            <img src="assets/imgs/web1.webp" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            </a>
-                            <a href="https://ocotechconstruction.com/" target="_blank">
-                            <div class="content-holder">
-                                <div class="text-holder">
-                                    <h6 class="title">WEBSITE</h6>
-                                    <p class="subtitle">OCO Tech Nigeria Limited</p>
-                                </div>
-                            </div>
-                            </a>   
-                        </div>             
-                    </div>
-                    <div class="col-md-6 col-lg-4 web new">
-                        <div class="portfolio-item">
-                            <a href="https://Kaiserloweugo.com/" target="_blank">
-                            <img src="assets/imgs/web2.webp" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            </a>
-                            <a href="https://Kaiserloweugo.com/" target="_blank">
-                            <div class="content-holder">
-                                <div class="text-holder">
-                                    <h6 class="title">WEBSITE</h6>
-                                    <p class="subtitle">KaiserloweUGO</p>
-                                </div>
-                            </div>
-                            </a> 
-                        </div>                         
-                    </div>
-                    <div class="col-md-6 col-lg-4 web new">                        
-                        <div class="portfolio-item">
-                            <a href="https://techcore-innovations.com/" target="_blank">
-                            <img src="assets/imgs/web3.webp" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
-                            </a>
-                            <a href="https://techcore-innovations.com/" target="_blank">
-                                <div class="content-holder">
-                                    <div class="text-holder">
-                                        <h6 class="title">WEBSITE</h6>
-                                        <p class="subtitle">Techcore Innovations</p>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>                                  
-                    </div>
-                    <div class="col-md-6 col-lg-4 branding">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/brand-1.jpg" width="290" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
-                           <div class="content-holder">
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Champion Creators Academy</p>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/brand-2.jpg" width="290" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
-                           <div class="content-holder">
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Techcore Innovations</p>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div>
-                    <div class="col-md-6 col-lg-4 branding new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/brand-3.jpg" width="290" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
-                           <div class="content-holder">
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">OCO Tech Construction</p>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div>
-                    <div class="col-md-6 col-lg-4 branding">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/brand-5.jpg" width="290" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
-                            <div class="content-holder">
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Elevance Africa</p>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div>
-                    <div class="col-md-6 col-lg-4 branding new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/brand-6.jpg" width="290" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
-                           <div class="content-holder">
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Gabby and Co. Ventures</p>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div>
-                    <div class="col-md-6 col-lg-4 branding new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/brand-4.jpg" width="290" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
-                           <div class="content-holder">
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">ChocoWears</p>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div>
-                </div> 
-            </div>  
-        </div>            
-    </section>
-    <!-- End of portfolio section -->
-
-
-    <div class="section contact" id="contact">
-        <div id="" class="map"><iframe style="height: 100%; width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37974.22464172384!2d6.794437148670293!3d6.152235107866522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104393d5165e7a7d%3A0xb71449aaab84f264!2sNkpor%2C%20Anambra!5e1!3m2!1sen!2sng!4v1740408834649!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="contact-form-card">
-                        <h4 class="contact-title">Send a message</h4>
-                        <form action="">
-                            <div class="form-group">
-                                <input  class="form-control" type="text" placeholder="Name *" required>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
-                            </div>
-                            <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-info-card">
-                        <h4 class="contact-title">Get in touch</h4>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-mobile icon-md"></i>
-                            </div>
-                            <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+234 806 7857 643</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-map-alt icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">Nkpor-uno, Anambra State, Nigeria.</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-envelope icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">orajiakachibuikem01@gmail.com</span></h6>
-                            </div>
-                        </div>
-                        <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" target="_blank" href="https://web.facebook.com/orajiakachibuikem/"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" target="_blank" href="https://x.com/Orajiaka_iyke"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                            <!-- <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li> -->
-                            <li class="social-item"><a class="social-link text-dark" target="_blank" href="https://www.instagram.com/orajiaka_iyke/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" target="_blank" href="https://github.com/Mr-iyke"><i class="ti-github" aria-hidden="true"></i></a></li>
-                        </ul> 
-                    </div>
-                </div>
-            </div>
-
-        </div>
+    <h1 class="hero-title">
+      Orajiaka<br>
+      <span class="italic">Chibuikem</span>
+    </h1>
+    <p class="hero-sub">
+      Web Developer · Data Analyst · Graphic Designer — crafting innovative digital experiences from Anambra State, Nigeria.
+    </p>
+    <div class="hero-actions">
+      <a href="#portfolio" class="btn-primary">
+        View My Work
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#contact" class="btn-outline">Get In Touch</a>
     </div>
-    <footer class="footer py-3">
-        <div class="container">
-            <p class="small mb-0 text-light">
-                <!-- &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a>  -->
-                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="./" target="_blank"><span class="text-danger" title="me">Orajiaka Chibuikem</span></a> 
-            </p>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num"><span class="counter" data-target="5">0</span><b>+</b></div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div>
+        <div class="stat-num"><span class="counter" data-target="10">0</span><b>+</b></div>
+        <div class="stat-label">Projects Delivered</div>
+      </div>
+      <div>
+        <div class="stat-num"><span class="counter" data-target="10">0</span><b>+</b></div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+    </div>
+  </div>
+  <!-- PHOTO SLOT -->
+  <div class="hero-photo">
+    <div class="photo-ring"></div>
+    <div class="photo-frame" id="photoFrame">
+      <!--
+        HOW TO ADD YOUR PHOTO:
+        Replace the div below with:
+        <img src="img/your-photo.webp" alt="Orajiaka Chibuikem">
+      -->
+      <div class="photo-placeholder">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+          <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+        </svg>
+        <span>Replace with your photo</span>
+        <span style="font-size:11px;opacity:0.6">See HTML comment above</span>
+      </div>
+    </div>
+    <div class="photo-tag">Available for hire</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="reveal">
+    <div class="section-eyebrow">About Me</div>
+    <h2 class="section-title">Who am I?</h2>
+    <p class="section-desc">A versatile tech professional passionate about building, analyzing, and designing.</p>
+  </div>
+  <div class="about-grid">
+    <div class="reveal reveal-delay-1">
+      <p class="about-text">I'm a Web Developer, Data Analyst, and Graphic Designer based in Onitsha, Anambra State, Nigeria. I specialize in building high-performance web solutions, deriving insights from data, and creating compelling visual designs that elevate brands.</p>
+      <p class="about-text">With over 5 years of experience, I've worked across the full spectrum of digital work — from backend systems and database architecture to brand identity and coaching the next generation of tech professionals.</p>
+      <div class="about-info">
+        <div class="info-item"><div class="info-label">Date of Birth</div><div class="info-val">30 Oct, 1999</div></div>
+        <div class="info-item"><div class="info-label">Location</div><div class="info-val">Anambra, Nigeria</div></div>
+        <div class="info-item"><div class="info-label">Email</div><div class="info-val" style="font-size:12.5px">orajiakachibuikem01@gmail.com</div></div>
+        <div class="info-item"><div class="info-label">Phone</div><div class="info-val">+234 806 7857 643</div></div>
+      </div>
+    </div>
+    <div class="reveal reveal-delay-2">
+      <div class="expertise-cards">
+        <div class="exp-card tilt">
+          <div class="exp-card-icon">⚙️</div>
+          <div class="exp-card-title">Back-end Web Development</div>
+          <div class="exp-card-desc">Building seamless interactions between databases, servers, and client applications using Django, Python, and SQL.</div>
         </div>
-    </footer>
+        <div class="exp-card tilt">
+          <div class="exp-card-icon">🎨</div>
+          <div class="exp-card-title">Graphics Designing</div>
+          <div class="exp-card-desc">Logo design, branding, web design, print media, and digital illustrations that make lasting impressions.</div>
+        </div>
+        <div class="exp-card tilt">
+          <div class="exp-card-icon">📊</div>
+          <div class="exp-card-title">Data Analysis</div>
+          <div class="exp-card-desc">Data processing, visualization, and statistical analysis to help businesses make informed decisions.</div>
+        </div>
+        <div class="exp-card tilt">
+          <div class="exp-card-icon">🎓</div>
+          <div class="exp-card-title">IT Coaching & Tutoring</div>
+          <div class="exp-card-desc">Web development, programming, and IT fundamentals training for beginners through advanced learners.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+<!-- SKILLS -->
+<section id="skills">
+  <div class="reveal">
+    <div class="section-eyebrow">Skills</div>
+    <h2 class="section-title">My Toolkit</h2>
+    <p class="section-desc">Technologies and tools I work with every day.</p>
+  </div>
+  <div class="skills-grid reveal reveal-delay-1">
+    <div class="skill-card"><div class="skill-header"><span class="skill-name">HTML5 & CSS3</span><span class="skill-pct">95%</span></div><div class="skill-track"><div class="skill-fill" data-width="95%"></div></div></div>
+    <div class="skill-card"><div class="skill-header"><span class="skill-name">JavaScript</span><span class="skill-pct">85%</span></div><div class="skill-track"><div class="skill-fill" data-width="85%"></div></div></div>
+    <div class="skill-card"><div class="skill-header"><span class="skill-name">Python</span><span class="skill-pct">80%</span></div><div class="skill-track"><div class="skill-fill" data-width="80%"></div></div></div>
+    <div class="skill-card"><div class="skill-header"><span class="skill-name">Django</span><span class="skill-pct">78%</span></div><div class="skill-track"><div class="skill-fill" data-width="78%"></div></div></div>
+    <div class="skill-card"><div class="skill-header"><span class="skill-name">SQL</span><span class="skill-pct">82%</span></div><div class="skill-track"><div class="skill-fill" data-width="82%"></div></div></div>
+    <div class="skill-card"><div class="skill-header"><span class="skill-name">Adobe Photoshop</span><span class="skill-pct">90%</span></div><div class="skill-track"><div class="skill-fill" data-width="90%"></div></div></div>
+    <div class="skill-card"><div class="skill-header"><span class="skill-name">Adobe Illustrator</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-fill" data-width="88%"></div></div></div>
+    <div class="skill-card"><div class="skill-header"><span class="skill-name">Microsoft Excel</span><span class="skill-pct">82%</span></div><div class="skill-track"><div class="skill-fill" data-width="82%"></div></div></div>
+    <div class="skill-card"><div class="skill-header"><span class="skill-name">Power BI</span><span class="skill-pct">75%</span></div><div class="skill-track"><div class="skill-fill" data-width="75%"></div></div></div>
+  </div>
+</section>
 
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+<!-- SERVICES -->
+<section id="services">
+  <div class="reveal">
+    <div class="section-eyebrow">Services</div>
+    <h2 class="section-title">What I Offer</h2>
+    <p class="section-desc">End-to-end digital services tailored to grow your brand and business.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card tilt reveal reveal-delay-1"><div class="service-bg-num">01</div><div class="service-icon">🌐</div><div class="service-title">Website Development</div><div class="service-desc">Custom, high-performance websites — from landing pages to complex web applications, built to be fast, scalable, and secure.</div></div>
+    <div class="service-card tilt reveal reveal-delay-2"><div class="service-bg-num">02</div><div class="service-icon">🔧</div><div class="service-title">Website Maintenance</div><div class="service-desc">Regular updates, security checks, and performance improvements to keep your site running smoothly and minimizing downtime.</div></div>
+    <div class="service-card tilt reveal reveal-delay-3"><div class="service-bg-num">03</div><div class="service-icon">✏️</div><div class="service-title">Graphics Design</div><div class="service-desc">Stunning logos, social media graphics, print materials, and digital illustrations that captivate your audience.</div></div>
+    <div class="service-card tilt reveal"><div class="service-bg-num">04</div><div class="service-icon">💡</div><div class="service-title">Branding</div><div class="service-desc">Cohesive brand identity — from logo creation to full brand packages that resonate with your audience across all platforms.</div></div>
+    <div class="service-card tilt reveal reveal-delay-1"><div class="service-bg-num">05</div><div class="service-icon">🎓</div><div class="service-title">IT Coaching & Tutoring</div><div class="service-desc">Hands-on coaching in web development, programming, and IT fundamentals — personalized sessions for beginners to advanced learners at their own pace.</div></div>
+    <div class="service-card tilt reveal reveal-delay-2"><div class="service-bg-num">06</div><div class="service-icon">📊</div><div class="service-title">Data Analysis</div><div class="service-desc">Transforming raw data into actionable insights using Excel, Power BI, and MySQL — helping businesses make smarter, data-driven decisions.</div></div>
+    <div class="service-card tilt reveal reveal-delay-3"><div class="service-bg-num">07</div><div class="service-icon">📝</div><div class="service-title">Content Writing</div><div class="service-desc">SEO-friendly, engaging content — website pages, blog articles, and landing copy to boost your online presence.</div></div>
+  </div>
+</section>
 
-    <!-- Isotope  -->
-    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
-    
-    <!-- Google mpas -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+<!-- RESUME -->
+<section id="resume">
+  <div class="reveal">
+    <div class="section-eyebrow">Resume</div>
+    <h2 class="section-title">Experience & Education</h2>
+    <p class="section-desc">My professional journey and academic background.</p>
+  </div>
+  <div class="resume-grid">
+    <div class="reveal reveal-delay-1">
+      <div class="resume-col-head">Work Experience</div>
+      <div class="timeline">
+        <div class="tl-item"><div class="tl-period">2023 – Present</div><div class="tl-title">IT Coaching & Tutoring</div><div class="tl-sub">Techcore Innovations & Freelance · Onitsha, Nigeria</div><div class="tl-desc">Partnered with Techcore Innovations to deliver school-to-school IT training programmes. Also served as a part-time Back-end Web Development Tutor at ICT Slides Onitsha from September to November 2024.</div></div>
+        <div class="tl-item"><div class="tl-period">2023 – Present</div><div class="tl-title">Web Developer</div><div class="tl-sub">Techcore Innovations · Onitsha, Nigeria</div><div class="tl-desc">Building responsive, full-featured websites for businesses — including front-end and back-end development for OCO Tech Nigeria Limited, KaiserloweUGO, and the Techcore Innovations agency website.</div></div>
+        <div class="tl-item"><div class="tl-period">2022 – Present</div><div class="tl-title">Graphic Designer</div><div class="tl-sub">Techcore Innovations · Onitsha, Nigeria</div><div class="tl-desc">Designing logos, online ads, and physical marketing materials for companies and schools including Champion Creators Academy, OCO Tech Nigeria Limited, KaiserloweUGO, and Techcore Innovations.</div></div>
+      </div>
+    </div>
+    <div class="reveal reveal-delay-2">
+      <div class="resume-col-head">Education</div>
+      <div class="timeline">
+        <div class="tl-item"><div class="tl-period">Present</div><div class="tl-title">BSc Computer Science</div><div class="tl-sub">University of the People (UoPeople) · California, USA (Online)</div><div class="tl-desc">Currently studying Computer Science at an accredited tuition-free online university based in California.</div></div>
+        <div class="tl-item"><div class="tl-period">Present</div><div class="tl-title">BSc Computer Science</div><div class="tl-sub">Nnamdi Azikiwe University (UNIZIK) · Awka, Nigeria</div><div class="tl-desc">Currently enrolled as a Computer Science student at UNIZIK, Awka, Anambra State, Nigeria.</div></div>
+        <div class="tl-item"><div class="tl-period">2025 – Present</div><div class="tl-title">Data Analysis</div><div class="tl-sub">ICT Slides, Onitsha</div><div class="tl-desc">Learning data processing, visualization, and statistical analysis to derive insights and support decision-making.</div></div>
+        <div class="tl-item"><div class="tl-period">2023 – 2024</div><div class="tl-title">Back-end Web Development</div><div class="tl-sub">ICT Slides, Onitsha</div><div class="tl-desc">Developed expertise in server-side programming, database management, and API development.</div></div>
+        <div class="tl-item"><div class="tl-period">2022 – 2023</div><div class="tl-title">Front-end Web Development</div><div class="tl-sub">CC7 Computers, Awka</div><div class="tl-desc">Gained hands-on experience building responsive and interactive web interfaces with HTML, CSS, JavaScript.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- JohnDoe js -->
-    <script src="assets/js/johndoe.js"></script>
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="reveal">
+    <div class="section-eyebrow">Portfolio</div>
+    <h2 class="section-title">My Work</h2>
+    <p class="section-desc">A selection of projects and brand identities I've crafted.</p>
+  </div>
+  <div class="pf-filters reveal reveal-delay-1">
+    <button class="pf-btn active" onclick="filterPF('all',this)">All</button>
+    <button class="pf-btn" onclick="filterPF('website',this)">Websites</button>
+    <button class="pf-btn" onclick="filterPF('branding',this)">Branding</button>
+  </div>
+  <div class="portfolio-grid reveal reveal-delay-2" id="pfGrid">
+    <div class="port-card" data-cat="website"><div class="port-img"><img src="img/web1.webp" alt="OCO Tech" loading="lazy"><div class="port-overlay"><a href="https://ocotechconstruction.com/" target="_blank">View Live ↗</a></div></div><div class="port-info"><div class="port-tag">Website</div><div class="port-title">OCO Tech Nigeria Limited</div></div></div>
+    <div class="port-card" data-cat="website"><div class="port-img"><img src="img/web2.webp" alt="KaiserloweUGO" loading="lazy"><div class="port-overlay"><a href="https://Kaiserloweugo.com/" target="_blank">View Live ↗</a></div></div><div class="port-info"><div class="port-tag">Website</div><div class="port-title">KaiserloweUGO</div></div></div>
+    <div class="port-card" data-cat="website"><div class="port-img"><img src="img/web3.webp" alt="Techcore Innovations" loading="lazy"><div class="port-overlay"><a href="https://techcore-innovations.com/" target="_blank">View Live ↗</a></div></div><div class="port-info"><div class="port-tag">Website</div><div class="port-title">Techcore Innovations</div></div></div>
+    <div class="port-card" data-cat="branding"><div class="port-img"><img src="img/brand-1.jpg" alt="Champion Creators Academy" loading="lazy"><div class="port-overlay"><a href="#" onclick="openLightbox(event,'img/brand-1.jpg','Champion Creators Academy')">View Full ↗</a></div></div><div class="port-info"><div class="port-tag">Branding</div><div class="port-title">Champion Creators Academy</div></div></div>
+    <div class="port-card" data-cat="branding"><div class="port-img"><img src="img/brand-2.jpg" alt="Techcore Branding" loading="lazy"><div class="port-overlay"><a href="#" onclick="openLightbox(event,'img/brand-2.jpg','Techcore Innovations')">View Full ↗</a></div></div><div class="port-info"><div class="port-tag">Branding</div><div class="port-title">Techcore Innovations</div></div></div>
+    <div class="port-card" data-cat="branding"><div class="port-img"><img src="img/brand-3.jpg" alt="OCO Construction" loading="lazy"><div class="port-overlay"><a href="#" onclick="openLightbox(event,'img/brand-3.jpg','OCO Tech Construction')">View Full ↗</a></div></div><div class="port-info"><div class="port-tag">Branding</div><div class="port-title">OCO Tech Construction</div></div></div>
+    <div class="port-card" data-cat="branding"><div class="port-img"><img src="img/brand-5.jpg" alt="Elevance Africa" loading="lazy"><div class="port-overlay"><a href="#" onclick="openLightbox(event,'img/brand-5.jpg','Elevance Africa')">View Full ↗</a></div></div><div class="port-info"><div class="port-tag">Branding</div><div class="port-title">Elevance Africa</div></div></div>
+    <div class="port-card" data-cat="branding"><div class="port-img"><img src="img/brand-6.jpg" alt="Gabby and Co" loading="lazy"><div class="port-overlay"><a href="#" onclick="openLightbox(event,'img/brand-6.jpg','Gabby and Co. Ventures')">View Full ↗</a></div></div><div class="port-info"><div class="port-tag">Branding</div><div class="port-title">Gabby and Co. Ventures</div></div></div>
+    <div class="port-card" data-cat="branding"><div class="port-img"><img src="img/brand-4.jpg" alt="ChocoWears" loading="lazy"><div class="port-overlay"><a href="#" onclick="openLightbox(event,'img/brand-4.jpg','ChocoWears')">View Full ↗</a></div></div><div class="port-info"><div class="port-tag">Branding</div><div class="port-title">ChocoWears</div></div></div>
+  </div>
+</section>
 
+<!-- CONTACT -->
+<section id="contact">
+  <div class="reveal">
+    <div class="section-eyebrow">Contact</div>
+    <h2 class="section-title">Let's Talk</h2>
+    <p class="section-desc">Have a project in mind? I'd love to hear from you.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="reveal reveal-delay-1">
+      <div class="contact-item"><div class="contact-icon">📍</div><div><div class="contact-label">Location</div><div class="contact-val">Nkpor-uno, Anambra State, Nigeria</div></div></div>
+      <div class="contact-item"><div class="contact-icon">📧</div><div><div class="contact-label">Email</div><div class="contact-val">orajiakachibuikem01@gmail.com</div></div></div>
+      <div class="contact-item"><div class="contact-icon">📞</div><div><div class="contact-label">Phone</div><div class="contact-val">+234 806 7857 643</div></div></div>
+      <div class="social-links">
+        <a href="https://github.com/Mr-iyke" class="social-link" target="_blank" title="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg></a>
+        <a href="https://x.com/Orajiaka_iyke" class="social-link" target="_blank" title="X"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="https://www.instagram.com/chibuikemorajiaka/" class="social-link" target="_blank" title="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+        <a href="https://web.facebook.com/orajiakachibuikem/" class="social-link" target="_blank" title="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="https://wa.me/2348067857643" class="social-link" target="_blank" title="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+      </div>
+    </div>
+    <div class="reveal reveal-delay-2">
+      <div class="faq-list" id="faqList">
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">What services do you offer?<span class="faq-icon">+</span></button>
+          <div class="faq-a">I offer a wide range of digital services including website development, website maintenance, graphics design, branding, IT coaching & tutoring, data analysis, and content writing — all tailored to help individuals and businesses grow online.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">How long does it take to build a website?<span class="faq-icon">+</span></button>
+          <div class="faq-a">Timelines depend on the scope and complexity of the project. A standard business website typically takes 1–2 weeks, while larger projects with custom features may take 3–4 weeks. I'll always give you a clear timeline before we begin.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">How do I get started working with you?<span class="faq-icon">+</span></button>
+          <div class="faq-a">Simply reach out via email, phone, or any of my social media platforms. We'll have a quick conversation about your goals, and I'll put together a plan and quote that fits your needs and budget.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you work with clients outside Nigeria?<span class="faq-icon">+</span></button>
+          <div class="faq-a">Absolutely! I work with clients remotely from anywhere in the world. All communication, project delivery, and revisions are handled seamlessly online, so location is never a barrier.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you offer revisions after project delivery?<span class="faq-icon">+</span></button>
+          <div class="faq-a">Yes. Every project includes revision rounds to make sure the final result meets your expectations. My goal is to deliver work you're genuinely proud of, so I don't consider a project done until you're satisfied.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Can you maintain my website after it's built?<span class="faq-icon">+</span></button>
+          <div class="faq-a">Yes! I offer ongoing website maintenance services covering regular updates, security monitoring, performance optimization, and content changes — so your site stays fast, secure, and up to date.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-text">© 2025 <a href="#">Orajiaka Chibuikem</a>. All rights reserved.</div>
+  <a href="#home" class="back-top">
+    Back to top
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 11V3M3 7l4-4 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
